@@ -1,0 +1,103 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+
+/* Gauche */
+
+.gauche{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    background-color: lightgray;
+}
+img{
+    width: 100%;
+}
+.contact{
+    margin-top: -0.75%;
+    font-size: 1em;
+    padding: 5% 10% 15% 10%;
+    color: white;
+    background-color: rgb(24, 23, 23);
+}
+.contact a{
+    color: white;
+}
+.compt{
+    font-size: 1em;
+    padding: 10%;
+    background-color: lightgray;
+}
+.compt li{
+    padding-top: 15%;
+    margin-left: -2%;
+}
+
+/* Droite */
+
+.droite{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+
+}
+.nom{
+    padding-left: 5%;
+    padding-bottom: 4%;
+    font-size: 2.1em;
+    font-style: bold;
+    color: goldenrod;
+    background-color: rgb(24, 23, 23);
+}
+.nom p{
+    margin-top: -7.5%;
+    font-size: 0.7em;
+    color: whitesmoke;
+}
+.present{
+    padding: 1% 5% 1% 5%;
+    background-color: lightgray;
+}
+.present p{
+    color: rgb(24, 23, 23);
+    font-size: 1.1em;
+    font-weight: bold;
+}
+.exp{
+    padding: 2% 2% 0% 5%;
+}
+.exp h3{
+    font-size: 1.1em;
+    color: goldenrod;
+}
+.form{
+    font-size: 1em;
+    padding: 2% 2% 0% 5%;
+}
+.form h3{
+    font-size: 0.4em;
+    color: goldenrod;
+}
+.lien{
+    align-items: center;
+    padding-top: 10%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    color: goldenrod;
+    font-weight: bold;
+}
+.lien img{
+    width: 50px;
+    height: 50px;
+    margin-right: 5%;
+}
+
+
+
+
