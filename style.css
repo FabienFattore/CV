@@ -6,9 +6,9 @@ main{
     justify-content: center;
 }
 
-/* Gauche */
+/* Left */
 
-.gauche{
+.left{
     width: 25%;
     display: flex;
     flex-direction: column;
@@ -20,7 +20,7 @@ img{
 }
 .contact{
     margin-top: -0.75%;
-    font-size: 1em;
+    font-size: 1rem;
     padding: 5% 10% 15% 10%;
     color: white;
     background-color: rgb(24, 23, 23);
@@ -28,25 +28,25 @@ img{
 .contact a{
     color: white;
 }
-.compt{
+.skills{
     font-size: 1em;
     padding: 10%;
     background-color: lightgray;
 }
-.compt li{
+.skills li{
     padding-top: 15%;
     margin-left: -2%;
 }
 
-/* Droite */
+/* Right */
 
-.droite{
+.right{
     width: 40%;
     display: flex;
     flex-direction: column;
 
 }
-.nom{
+.name{
     padding-left: 5%;
     padding-bottom: 4%;
     font-size: 2.1em;
@@ -54,7 +54,7 @@ img{
     color: goldenrod;
     background-color: rgb(24, 23, 23);
 }
-.nom p{
+.name p{
     margin-top: -7.5%;
     font-size: 0.7em;
     color: whitesmoke;
@@ -83,7 +83,7 @@ img{
     font-size: 0.4em;
     color: goldenrod;
 }
-.lien{
+.link{
     align-items: center;
     padding-top: 10%;
     display: flex;
@@ -92,7 +92,7 @@ img{
     color: goldenrod;
     font-weight: bold;
 }
-.lien img{
+.link img{
     width: 50px;
     height: 50px;
     margin-right: 5%;
